@@ -1,0 +1,26 @@
+@import '../utils/index.css';
+@import '../components/status-bar.css';
+@import '../components/movie.css';
+@import '../components/navbar.css';
+@import '../components/bottom-navbar.css';
+@import '../components/play.css';
+
+.center {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+.smart-downloads {
+    display: flex;
+    align-items: center;
+  }
+  
+.smart-downloads__img {
+    width: 15px;
+  }
+  
+.smart-downloads__text {
+    font-size: 14px;
+    margin-left: 4px;
+  }
